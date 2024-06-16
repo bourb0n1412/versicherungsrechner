@@ -14,7 +14,7 @@ Dieses Projekt ist ein React-basiertes Webanwendung zur Berechnung von Autoversi
 - React
 - React Router
 - CSS
-- Google Fonts (Roboto)
+
 
 ## Installation
 
