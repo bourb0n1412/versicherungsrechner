@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import './Variables.css';
+
+.vehicle-details-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  color: var(--secondary-color);
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+label {
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-align: left;
+  font-size: 1.2em;
+  width: 45%;
+}
+
+select, input[type="date"], input[type="text"], input[type="email"], input[type="number"] {
+  width: 35%;
+  padding: 0.8em;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 1.2em;
+  background-color: #f1f1f1;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:focus, input[type="date"]:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(204, 255, 0, 0.5);
+}
+
+input[type="radio"] {
+  margin-right: 0.5em;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.radio-group input {
+  margin-right: 0.2em;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.vehicle-details-btn {
+  background-color: var(--primary-color);
+  padding: 1em 2em;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s, transform 0.3s;
+  color: var(--secondary-color);
+}
+
+.vehicle-details-btn:hover {
+  background-color: var(--primary-color-dark);
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .vehicle-details-container {
+    padding: 20px;
+  }
+
+  .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  label, select, input[type="date"], input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+  select, input[type="date"], input[type="text"], input[type="email"], input[type="number"] {
+    font-size: 0.9em;
+  }
+
+  .vehicle-details-btn {
+    font-size: 1em;
+    padding: 0.8em 1.5em;
+  }
+}

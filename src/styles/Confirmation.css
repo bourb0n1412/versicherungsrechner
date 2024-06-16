@@ -1,0 +1,39 @@
+.confirmation-container {
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  strong {
+    color: #000;
+  }
+  
+  .btn-home {
+    background-color: #CCFF00;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-home:hover {
+    background-color: #b2e600;
+  }
+  

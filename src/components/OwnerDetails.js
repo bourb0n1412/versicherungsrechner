@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AppContext } from './AppContext';
-import './OwnerDetails.css';
+import { AppContext } from '../AppContext';
+import '../styles/OwnerDetails.css';
 
 const OwnerDetails = () => {
   const { setOwnerDetails } = useContext(AppContext);

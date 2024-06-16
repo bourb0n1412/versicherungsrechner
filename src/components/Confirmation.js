@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import './Confirmation.css';
+import '../styles/Confirmation.css';
 
 const Confirmation = () => {
   const location = useLocation();

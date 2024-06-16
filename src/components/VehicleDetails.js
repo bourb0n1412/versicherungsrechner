@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AppContext } from './AppContext';
-import './VehicleDetails.css';
+import { AppContext } from '../AppContext';
+import '../styles/VehicleDetails.css';
 
 const VehicleDetails = () => {
   const { setVehicleDetails } = useContext(AppContext);

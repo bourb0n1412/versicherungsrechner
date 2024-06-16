@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AppContext } from './AppContext';
-import './Offers.css';
+import { AppContext } from '../AppContext';
+import '../styles/Offers.css';
 
 const Offers = () => {
   const { vehicleDetails, ownerDetails, personalDetails } = useContext(AppContext);
